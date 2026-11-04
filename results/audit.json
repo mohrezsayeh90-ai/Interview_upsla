@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": [
+    "raw sample counts and nonnegativity",
+    "spanning/zero-flow consistency",
+    "summary reproduction",
+    "exact constant-mean scaling",
+    "conductance-independent spanning",
+    "solver conservation and energy",
+    "head bounds",
+    "executed notebook"
+  ],
+  "solver_calls": 248188
+}

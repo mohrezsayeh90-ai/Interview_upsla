@@ -1,0 +1,39 @@
+{
+  "seed": 20261104,
+  "streams": {
+    "scenarios": 1,
+    "sweep": 2,
+    "size": 3,
+    "sobol": 4,
+    "bootstrap": 5,
+    "diagnostics": 6
+  },
+  "arguments": {
+    "scenario_reps": 10000,
+    "sweep_reps": 2500,
+    "size_reps": 5000,
+    "sobol_base": 16384,
+    "bootstrap": 1000,
+    "diagnostics": 1000
+  },
+  "n_baseline": 25,
+  "delta_range": [
+    0,
+    0.25
+  ],
+  "sigma_range": [
+    0,
+    2
+  ],
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "pandas": "2.2.3",
+  "elapsed_seconds": 188.064472965,
+  "solver_calls": 248188,
+  "model": "ln(g) ~ Normal(0, sigma^2); p=.5+delta*a, a~Uniform(-1,1)",
+  "sobol": "5 independent groups; Jansen first/total; paired-row percentile bootstrap; raw estimates unclipped",
+  "mean_ci": "normal Monte Carlo 95%, not a model prediction interval",
+  "spanning_ci": "Wilson binomial 95%",
+  "quantile_ci": "binomial order-statistic 95%, conservative in the presence of ties"
+}
