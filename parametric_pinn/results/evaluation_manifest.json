@@ -1,0 +1,42 @@
+{
+  "seed": 20261105,
+  "test_streams": {
+    "scenarios": 201,
+    "continuous": 202,
+    "sigma_stress": 203,
+    "fully_connected_stress": 204,
+    "size_stress": 205,
+    "sobol": 301,
+    "bootstrap": 302,
+    "timing": 401
+  },
+  "training_stream": 101,
+  "validation_stream": 102,
+  "arguments": {
+    "scenario_reps": 1000,
+    "continuous_reps": 1000,
+    "stress_reps": 250,
+    "sobol_base": 2048,
+    "threads": 2
+  },
+  "python": "3.12.14",
+  "test": {
+    "main_cases": 10500,
+    "size_cases": 500,
+    "paired_evaluation_seconds": 207.96608680000008,
+    "input_sha256_main_float64": "9e536691c70c438d53e91ec2504a5f40f9acac6320470e77a1c0acbec1c241a4"
+  },
+  "sensitivity": {
+    "base_pairs": 2048,
+    "reference_calls": 14336,
+    "bootstrap": 1000,
+    "seconds": 245.3260919860004
+  },
+  "elapsed_seconds": 469.49954646599963,
+  "energy_estimator": true,
+  "primary_test_is_unseen_topology": true,
+  "test_time_sparse_refinement": false,
+  "test_time_training": false,
+  "nonneural_preprocessing": "connected components and shortest resistance distances",
+  "comparison_scope": "paired independent test fields, not subtraction of two unpaired Monte Carlo studies"
+}

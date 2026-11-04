@@ -1,0 +1,10 @@
+{
+  "case_id": "scenario_661_0.1_2.0",
+  "delta": 0.1,
+  "p": 0.4837037177253396,
+  "sigma": 2.0,
+  "free_node_rmse": 0.1936639336845072,
+  "reference_geff": 0.009091803593631893,
+  "pinn_geff": 0.009383303637517694,
+  "selection": "largest per-realization free-node head RMSE among the independent scenario tests"
+}

@@ -12,6 +12,7 @@ dependencies = ["numpy>=2.0", "scipy>=1.13", "pandas>=2.2", "matplotlib>=3.8"]
 [project.optional-dependencies]
 dev = ["pytest>=8"]
 report = ["python-pptx>=1.0"]
+pinn = ["torch>=2.5"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

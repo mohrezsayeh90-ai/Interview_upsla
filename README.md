@@ -1,5 +1,7 @@
 # جریان در شبکه تصادفی دوبعدی: تحلیل عدم‌قطعیت و حساسیت
 
+**مرحله دوم — PINN پارامتری:** [کد، وزن آموزش‌دیده و نتایج مستقل](parametric_pinn/README.md) · [گزارش مقایسه کامل فارسی](parametric_pinn/reports/comparison_fa.pdf) · [ارائه مقایسه](parametric_pinn/reports/comparison_slides.pdf). این مرحله شامل ۳۶ آزمون موفق و مقایسه جفت‌شده دقت، فیزیک، آمار، حساسیت و هزینه است. خروجی‌های مطالعه اولیه زیر حفظ شده‌اند.
+
 این مخزن، پروژه پیوست‌شده **Mini-project: Uncertainty and Sensitivity Analysis of Flow in a 2D Random Network** را از مدل‌سازی و اعتبارسنجی تا تحلیل آماری، حساسیت و گزارش نهایی پوشش می‌دهد. شبیه‌سازی‌ها اجرا شده‌اند و فایل‌های نتایج، نمونه‌های واقعی هستند.
 
 **گزارش فارسی:** [PDF هفت‌صفحه‌ای](reports/report_fa.pdf) · [نسخه HTML](reports/report_fa.html)

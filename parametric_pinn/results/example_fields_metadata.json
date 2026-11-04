@@ -1,0 +1,242 @@
+[
+  {
+    "case_id": "scenario_0_0.0_0.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 0,
+    "delta": 0.0,
+    "p": 0.5,
+    "sigma": 0.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_0_0.0_1.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 0,
+    "delta": 0.0,
+    "p": 0.5,
+    "sigma": 1.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_0_0.0_2.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 0,
+    "delta": 0.0,
+    "p": 0.5,
+    "sigma": 2.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_0_0.1_0.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 0,
+    "delta": 0.1,
+    "p": 0.4694645109007113,
+    "sigma": 0.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_0_0.1_1.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 0,
+    "delta": 0.1,
+    "p": 0.4694645109007113,
+    "sigma": 1.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_0_0.1_2.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 0,
+    "delta": 0.1,
+    "p": 0.4694645109007113,
+    "sigma": 2.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_0_0.25_0.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 0,
+    "delta": 0.25,
+    "p": 0.42366127725177827,
+    "sigma": 0.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_0_0.25_1.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 0,
+    "delta": 0.25,
+    "p": 0.42366127725177827,
+    "sigma": 1.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_0_0.25_2.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 0,
+    "delta": 0.25,
+    "p": 0.42366127725177827,
+    "sigma": 2.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_1_0.0_0.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 1,
+    "delta": 0.0,
+    "p": 0.5,
+    "sigma": 0.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_1_0.0_1.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 1,
+    "delta": 0.0,
+    "p": 0.5,
+    "sigma": 1.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_1_0.0_2.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 1,
+    "delta": 0.0,
+    "p": 0.5,
+    "sigma": 2.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_1_0.1_0.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 1,
+    "delta": 0.1,
+    "p": 0.4054258808763379,
+    "sigma": 0.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_1_0.1_1.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 1,
+    "delta": 0.1,
+    "p": 0.4054258808763379,
+    "sigma": 1.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_1_0.1_2.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 1,
+    "delta": 0.1,
+    "p": 0.4054258808763379,
+    "sigma": 2.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_1_0.25_0.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 1,
+    "delta": 0.25,
+    "p": 0.2635647021908448,
+    "sigma": 0.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_1_0.25_1.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 1,
+    "delta": 0.25,
+    "p": 0.2635647021908448,
+    "sigma": 1.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_1_0.25_2.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 1,
+    "delta": 0.25,
+    "p": 0.2635647021908448,
+    "sigma": 2.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_2_0.0_0.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 2,
+    "delta": 0.0,
+    "p": 0.5,
+    "sigma": 0.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_2_0.0_1.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 2,
+    "delta": 0.0,
+    "p": 0.5,
+    "sigma": 1.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_2_0.0_2.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 2,
+    "delta": 0.0,
+    "p": 0.5,
+    "sigma": 2.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_2_0.1_0.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 2,
+    "delta": 0.1,
+    "p": 0.5667359084498663,
+    "sigma": 0.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_2_0.1_1.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 2,
+    "delta": 0.1,
+    "p": 0.5667359084498663,
+    "sigma": 1.0,
+    "stream": 201
+  },
+  {
+    "case_id": "scenario_2_0.1_2.0",
+    "split": "scenario",
+    "n": 25,
+    "replicate": 2,
+    "delta": 0.1,
+    "p": 0.5667359084498663,
+    "sigma": 2.0,
+    "stream": 201
+  }
+]

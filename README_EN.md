@@ -1,5 +1,7 @@
 # Uncertainty and sensitivity of flow in a 2D random network
 
+**New parametric graph PINN study:** [code, trained weights and separate results](parametric_pinn/README.md), [complete English comparison](parametric_pinn/reports/comparison_en.pdf), and [comparison slides](parametric_pinn/reports/comparison_slides.pdf). The original direct-solver study below remains available. The neural method is an unrolled learned physical operator with explicit preprocessing, and is slower than direct solving on this small CPU benchmark.
+
 Completed implementation of all four tasks in the supplied mini-project: numerical modeling and verification, uncertainty quantification, global sensitivity, and interpretation with limitations and extensions.
 
 - [Persian report (7 pages)](reports/report_fa.pdf)

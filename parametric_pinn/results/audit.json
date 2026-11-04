@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "trainable_parameters": 1939,
+  "paired_rows": 43000,
+  "unique_test_cases": 11000,
+  "tests": 36,
+  "checkpoint_sha256": "1396d3d8de6e6ea33fe9ac946816c85b11044c333ad26374371ab5ebc29ba292",
+  "checks": [
+    "disjoint random streams",
+    "no training labels",
+    "exact zero-flow routing",
+    "variational energy bound",
+    "paired summary reproduction",
+    "Sobol output reproduction",
+    "frozen-checkpoint field reproduction",
+    "executed notebook",
+    "PDF page counts",
+    "automated test results"
+  ]
+}

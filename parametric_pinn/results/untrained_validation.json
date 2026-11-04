@@ -1,0 +1,9 @@
+{
+  "depth": 256,
+  "mean_relative_g_error": 0.007898536041442396,
+  "median_relative_g_error": 3.5576324929231795e-05,
+  "p95_relative_g_error": 0.055509327656323534,
+  "p99_relative_g_error": 0.1254937300247074,
+  "maximum_relative_g_error": 0.23601475872330036,
+  "head_rmse": 0.02775934784442285
+}

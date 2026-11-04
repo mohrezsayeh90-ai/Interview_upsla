@@ -1,0 +1,47 @@
+{
+  "seed": 20261105,
+  "arguments": {
+    "train": 4096,
+    "validation": 512,
+    "epochs": 16,
+    "batch": 32,
+    "threads": 2
+  },
+  "config": {
+    "n": 25,
+    "width": 32,
+    "depth": 256
+  },
+  "best_epoch": 15,
+  "training_seconds": 297.424005371,
+  "elapsed_seconds": 334.65483295600006,
+  "train_data": {
+    "seed": 20261105,
+    "stream": 101,
+    "retained_spanning": 4096,
+    "generated": 8155,
+    "elapsed_seconds": 8.837241062999965,
+    "g_sha256_float64": "2b2bb141aee5c81a6d3b93366ce7515a75a9dfafd47e131aa971aee619fa07f3"
+  },
+  "validation_data": {
+    "seed": 20261105,
+    "stream": 102,
+    "retained_spanning": 512,
+    "generated": 1001,
+    "elapsed_seconds": 1.7087758600000598,
+    "g_sha256_float64": "c3f267dc5218463c3d3b113bc6c1a3e9f3dbf81ce695b88f2954e90f9930bd74"
+  },
+  "fast_depth": 256,
+  "accurate_depth": 2048,
+  "torch": "2.15.0+cpu",
+  "numpy": "2.3.5",
+  "device": "CPU",
+  "parameters": 1939,
+  "loss": "mean log(Dirichlet energy / initial geodesic energy) + 0.01 mean normalized Kirchhoff residual squared",
+  "training_reference_labels": false,
+  "selection": "minimum validation mean relative energy-derived conductance error at depth 256",
+  "inference": "fixed-depth learned residual graph network; fixed iterative head updates per input, no sparse solve or per-input weight fitting; explicit component and Dijkstra preprocessing",
+  "validation_p99_target": 0.001,
+  "validation_p99_target_met": false,
+  "accurate_depth_rule": "smallest tested depth >=256 with validation p99 relative G error <0.001, else the tested cap 2048; target success is explicitly recorded"
+}
