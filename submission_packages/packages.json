@@ -1,0 +1,14 @@
+[
+  {
+    "file": "simple_method.zip",
+    "bytes": 4201620,
+    "files": 40,
+    "sha256": "8debe41954f253647dc75322baee8644cbeb73310286c124d0efc4c8663d37fe"
+  },
+  {
+    "file": "parametric_PINN_method.zip",
+    "bytes": 5542813,
+    "files": 44,
+    "sha256": "368e521dc974b2c929c5b36c31290eb068abd9c709651f74c5b6ec9bb6b656db"
+  }
+]
