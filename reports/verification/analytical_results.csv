@@ -1,0 +1,40 @@
+test,case,criterion,expected,computed,absolute_difference,passed
+Uniform grid,"n=2, g=0.1",equality,0.2,0.2,0.0,True
+Uniform grid,"n=2, g=1.0",equality,2.0,2.0,0.0,True
+Uniform grid,"n=2, g=7.0",equality,14.0,14.0,0.0,True
+Uniform grid,"n=3, g=0.1",equality,0.15000000000000002,0.15000000000000002,0.0,True
+Uniform grid,"n=3, g=1.0",equality,1.5,1.5,0.0,True
+Uniform grid,"n=3, g=7.0",equality,10.5,10.5,0.0,True
+Uniform grid,"n=9, g=0.1",equality,0.1125,0.11250000000000025,2.498001805406602e-16,True
+Uniform grid,"n=9, g=1.0",equality,1.125,1.1249999999999991,8.881784197001252e-16,True
+Uniform grid,"n=9, g=7.0",equality,7.875,7.874999999999998,1.7763568394002505e-15,True
+Uniform grid,"n=25, g=0.1",equality,0.10416666666666667,0.10416666666666771,1.0408340855860843e-15,True
+Uniform grid,"n=25, g=1.0",equality,1.0416666666666667,1.0416666666666872,2.042810365310288e-14,True
+Uniform grid,"n=25, g=7.0",equality,7.291666666666667,7.2916666666665755,9.14823772291129e-14,True
+Series path,four unequal links,equality,0.4800000000000001,0.48,1.1102230246251565e-16,True
+Parallel paths,two unequal series branches,equality,1.4400000000000002,1.44,2.220446049250313e-16,True
+Disconnected cut,full vertical cut,equality,0.0,0.0,0.0,True
+Conductance scaling,"seed=0, scale=3",equality,0.464176408512663,0.4641764085125987,6.428191312579656e-14,True
+Rayleigh monotonicity,"seed=0, 30 edges increased",greater_or_equal,0.154725469504221,0.1897403010647586,0.035014831560537585,True
+Conductance scaling,"seed=1, scale=3",equality,0.25391208037638546,0.2539120803764742,8.876233081878127e-14,True
+Rayleigh monotonicity,"seed=1, 30 edges increased",greater_or_equal,0.08463736012546182,0.2302237753032532,0.14558641517779136,True
+Conductance scaling,"seed=2, scale=3",equality,0.6969593079331801,0.6969593079328311,3.489430966396867e-13,True
+Rayleigh monotonicity,"seed=2, 30 edges increased",greater_or_equal,0.23231976931106002,0.33138730708899183,0.09906753777793181,True
+Conductance scaling,"seed=3, scale=3",equality,0.8231910224976734,0.8231910224976794,5.995204332975845e-15,True
+Rayleigh monotonicity,"seed=3, 30 edges increased",greater_or_equal,0.27439700749922447,0.37859955859033434,0.10420255109110987,True
+Conductance scaling,"seed=4, scale=3",equality,0.3397987334763758,0.33979873347638534,9.547918011776346e-15,True
+Rayleigh monotonicity,"seed=4, 30 edges increased",greater_or_equal,0.11326624449212527,0.16112170571114365,0.047855461219018375,True
+Conductance scaling,"seed=5, scale=3",equality,0.2703761671750522,0.2703761671751705,1.1829426327381043e-13,True
+Rayleigh monotonicity,"seed=5, 30 edges increased",greater_or_equal,0.09012538905835073,0.12671315854087015,0.03658776948251942,True
+Conductance scaling,"seed=6, scale=3",equality,0.26441919008342335,0.2644191900836137,1.903477375719831e-13,True
+Rayleigh monotonicity,"seed=6, 30 edges increased",greater_or_equal,0.08813973002780778,0.10495638642751874,0.016816656399710958,True
+Conductance scaling,"seed=7, scale=3",equality,0.26819825402673125,0.26819825402681113,7.988054662178001e-14,True
+Rayleigh monotonicity,"seed=7, 30 edges increased",greater_or_equal,0.08939941800891041,0.14703737150535712,0.05763795349644671,True
+Conductance scaling,"seed=8, scale=3",equality,0.582578386030714,0.5825783860308166,1.0258460747536446e-13,True
+Rayleigh monotonicity,"seed=8, 30 edges increased",greater_or_equal,0.19419279534357134,0.27458390488798334,0.080391109544412,True
+Conductance scaling,"seed=9, scale=3",equality,0.7516256478802472,0.751625647880336,8.881784197001252e-14,True
+Rayleigh monotonicity,"seed=9, 30 edges increased",greater_or_equal,0.2505418826267491,0.3256163742312743,0.07507449160452523,True
+Conductance scaling,"seed=10, scale=3",equality,0.6075962428925576,0.6075962428924728,8.482103908136196e-14,True
+Rayleigh monotonicity,"seed=10, 30 edges increased",greater_or_equal,0.2025320809641859,0.2662335293414715,0.06370144837728559,True
+Conductance scaling,"seed=11, scale=3",equality,0.5904618279899171,0.5904618279896825,2.345901251032956e-13,True
+Rayleigh monotonicity,"seed=11, 30 edges increased",greater_or_equal,0.19682060932997236,0.27014609496257663,0.07332548563260427,True

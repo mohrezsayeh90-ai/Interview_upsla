@@ -1,0 +1,13 @@
+{
+  "diagnostic_realizations": 1000,
+  "spanning_realizations": 504,
+  "max_interior_residual": 2.747108096556872e-13,
+  "max_relative_in_out_error": 7.905149329940245e-12,
+  "max_absolute_energy_error": 2.411681965241997e-13,
+  "minimum_finite_head": 0.0,
+  "maximum_finite_head": 1.0000000000000466,
+  "analytical_check_records": 39,
+  "analytical_passed": true,
+  "max_equality_absolute_error": 3.489430966396867e-13,
+  "minimum_monotonicity_margin": 0.016816656399710958
+}
